@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/output.min.css">
-    <title>Tailwind</title>
+    <title>Isotope</title>
 </head>
 <body class="bg-beige font-poppins">
 
 
 <div class="container mx-auto">
 
-  <div class="filter font-bold my-8">
+  <div class="filter truc font-bold my-8" data-filter-group="family">
+    <h1>Filter : </h1>
     <button data-name="*" class="bg-red-400 hover:bg-black hover:text-red-400 text-black p-3 rounded-lg m-5">All</button>
-    <button data-name=".Stark" class="bg-red-400 text-black hover:bg-black hover:text-red-400 p-3 rounded-lg m-5">Stark</button>
-    <button data-name=".Baratheon" class="bg-red-400 text-black hover:bg-black hover:text-red-400 p-3 rounded-lg m-5">Baratheon</button>
-    <button data-name=".Lannister" class="bg-red-400 text-black hover:bg-black hover:text-red-400 p-3 rounded-lg m-5">Lannister</button>
-    <button data-name=".Targaryen" class="bg-red-400 text-black hover:bg-black hover:text-red-400 p-3 rounded-lg m-5">Targaryen</button>
-    <button data-name=".Greyjoy" class="bg-red-400 text-black hover:bg-black hover:text-red-400 p-3 rounded-lg m-5">Greyjoy</button>
+
+  </div>
+
+  <div class="genre truc font-bold my-8" data-filter-group="gender">
+    <h1>Sort :</h1>
+    <button data-name="*" class="bg-sky-300 hover:bg-black hover:text-sky-300 text-black p-3 rounded-lg m-5">All</button>
+    <button data-name=".Male" class="bg-sky-300 hover:bg-black hover:text-sky-300 text-black p-3 rounded-lg m-5">Male</button>
+    <button data-name=".Female" class="bg-sky-300 hover:bg-black hover:text-sky-300 text-black p-3 rounded-lg m-5">Female</button>
   </div>
 
 
